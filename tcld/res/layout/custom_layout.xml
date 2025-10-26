@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_round" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.AppBarLayout android:id="@id/line1" android:background="@drawable/bg_round" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enter_range" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" android:layout_below="@id/line1" android:layout_centerHorizontal="true">
+        <EditText android:id="@id/range_star" android:layout_width="56.0dip" android:layout_height="wrap_content" android:inputType="number" />
+        <View android:background="#ff000000" android:layout_width="24.0dip" android:layout_height="2.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="8.0dip" />
+        <EditText android:id="@id/range_end" android:layout_width="56.0dip" android:layout_height="wrap_content" android:inputType="number" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/line2">
+        <Button android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_alignParentStart="true" />
+        <Button android:id="@id/Shielding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Shielding" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

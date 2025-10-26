@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/activity_transition_header" android:background="#ff79bd9a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:layout_alignParentTop="true" fab:title="TC Lua Decompile" />
+    <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideInset" android:id="@id/listveiw_functionList" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_above="@id/button_View" android:layout_below="@id/activity_transition_header" android:verticalScrollbarPosition="right" fab:fastScrollEnabled="true" fab:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" fab:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" fab:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" fab:fastScrollVerticalTrackDrawable="@drawable/line_drawable" fab:layoutManager="LinearLayoutManager" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_View" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dump" android:background="@drawable/item_background" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+            <ImageView android:src="@drawable/test" style="@style/set_item_imageview" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/check_code" style="@style/set_item_title" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/start" android:background="@drawable/item_background" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+            <ImageView android:src="@drawable/draw" style="@style/set_item_imageview" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/decompline" style="@style/set_item_title" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.github.clans.fab.FloatingActionMenu android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/button_View" android:layout_alignParentEnd="true">
+        <com.github.clans.fab.FloatingActionButton android:id="@id/select_range" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit" fab:fab_label="@string/select_range" />
+        <com.github.clans.fab.FloatingActionButton android:id="@id/select_reverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/select_reverse" fab:fab_label="@string/select_reverse" />
+        <com.github.clans.fab.FloatingActionButton android:id="@id/select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/select_all" fab:fab_label="@string/select_all" />
+        <com.github.clans.fab.FloatingActionButton android:id="@id/add_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fab_add" fab:fab_label="@string/add_file" />
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>

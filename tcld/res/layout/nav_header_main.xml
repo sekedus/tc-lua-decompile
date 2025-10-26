@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ThemeOverlay.AppCompat.Dark" android:gravity="bottom" android:orientation="vertical" android:background="@drawable/side_nav_bar" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="176.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="Navigation header" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:id="@id/oneword" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+</LinearLayout>
