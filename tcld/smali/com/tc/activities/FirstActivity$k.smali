@@ -68,7 +68,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "\u7f16\u8bd1\u6210\u529f,\u5df2\u5199\u5165"
+    const-string v2, "Compilation successful, saved"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_0
-    const-string v1, "\u7f16\u8bd1\u5931\u8d25\uff01"
+    const-string v1, "Compilation failed\uff01"
 
     invoke-static {v0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 

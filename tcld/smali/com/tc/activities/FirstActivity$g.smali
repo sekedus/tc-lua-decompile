@@ -61,7 +61,7 @@
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v3, "/[\u53cd]"
+    const-string v3, "/[TCLD]"
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -159,7 +159,7 @@
     :try_start_2
     iget-object v0, p0, Lcom/tc/activities/FirstActivity$g;->b:Lcom/tc/activities/FirstActivity;
 
-    const-string v4, "\u5199\u51fa\u6587\u4ef6\u5931\u8d25"
+    const-string v4, "Unable to save file"
 
     invoke-static {v0, v4, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 

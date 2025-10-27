@@ -126,7 +126,7 @@
 
     invoke-direct {v4, p0}, Lc/d/b/h/d;-><init>(Landroid/content/Context;)V
 
-    const-string v5, "\u8f93\u5165\u8def\u5f84"
+    const-string v5, "Enter Path"
 
     .line 4
     iput-object v5, v4, Lc/d/b/h/a;->w:Ljava/lang/String;
@@ -283,7 +283,7 @@
 
     if-ge p1, v0, :cond_4
 
-    const-string v0, "\u8bf7\u4ece\u76f8\u518c\u9009\u62e9\u4e8c\u7ef4\u7801"
+    const-string v0, "Please select the QR code from the album"
 
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -345,7 +345,7 @@
     .line 16
     iget-object v1, p1, La/c/g/a/k$a;->a:Landroid/support/v7/app/AlertController$b;
 
-    const-string v2, "\u786e\u5b9a"
+    const-string v2, "OK"
 
     iput-object v2, v1, Landroid/support/v7/app/AlertController$b;->i:Ljava/lang/CharSequence;
 
@@ -542,7 +542,7 @@
 
     iget-object p1, p0, Lcom/tc/activities/SettingActivity;->q:Landroid/widget/TextView;
 
-    const-string v0, "\u81ea\u52a8\u6a21\u5f0f"
+    const-string v0, "Automatic Mode"
 
     goto :goto_0
 
@@ -553,7 +553,7 @@
 
     iget-object p1, p0, Lcom/tc/activities/SettingActivity;->q:Landroid/widget/TextView;
 
-    const-string v0, "\u5168\u5c40\u6a21\u5f0f"
+    const-string v0, "Full Mode"
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -572,7 +572,7 @@
 
     iget-object p1, p0, Lcom/tc/activities/SettingActivity;->s:Landroid/widget/TextView;
 
-    const-string v0, "\u9ed8\u8ba4\u8f93\u51fa\u65b9\u5f0f"
+    const-string v0, "Default Output Format"
 
     goto :goto_0
 
@@ -583,7 +583,7 @@
 
     iget-object p1, p0, Lcom/tc/activities/SettingActivity;->s:Landroid/widget/TextView;
 
-    const-string v0, "\u4ee516\u8fdb\u5236\u8f93\u51fa"
+    const-string v0, "16-bit Custom Output"
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V

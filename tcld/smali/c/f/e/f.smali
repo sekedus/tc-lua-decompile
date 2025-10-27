@@ -138,7 +138,7 @@
 
     if-nez v1, :cond_0
 
-    const-string v3, "/\u5185\u90e8\u5b58\u50a8\u8bbe\u5907"
+    const-string v3, "/Internal storage"
 
     goto :goto_1
 
@@ -147,7 +147,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "/SD\u5361"
+    const-string v4, "/SD card"
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -278,7 +278,7 @@
 
     move-result-object p1
 
-    const-string p2, "/\u5185\u90e8\u5b58\u50a8\u8bbe\u5907"
+    const-string p2, "/Internal storage"
 
     invoke-virtual {p1, p2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -300,7 +300,7 @@
     goto :goto_2
 
     :cond_1
-    const-string p2, "/SD\u5361"
+    const-string p2, "/SD card"
 
     invoke-virtual {p1, p2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 

@@ -192,7 +192,7 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v0, "\u53cd\u7f16\u8bd1\u5931\u8d25!\n"
+    const-string v0, "Decompilation failed!\n"
 
     invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

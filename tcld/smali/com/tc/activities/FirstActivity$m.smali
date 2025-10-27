@@ -66,7 +66,7 @@
 
     invoke-direct {v0}, Lc/d/b/f/j;-><init>()V
 
-    const-string v1, "\u51fd\u6570\u8303\u56f4 1-"
+    const-string v1, "Function Range 1-"
 
     .line 3
     invoke-static {v1}, Lc/a/a/a/a;->f(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -102,7 +102,7 @@
 
     invoke-direct {p3, p1}, Lc/d/b/h/d;-><init>(Landroid/content/Context;)V
 
-    const-string p1, "\u8f93\u5165\u8303\u56f4"
+    const-string p1, "Input Range"
 
     .line 7
     iput-object p1, p3, Lc/d/b/h/a;->w:Ljava/lang/String;
@@ -138,7 +138,7 @@
     .line 13
     iget-object v0, p1, La/c/g/a/k$a;->a:Landroid/support/v7/app/AlertController$b;
 
-    const-string v1, "\u5e38\u91cf\u5217\u8868"
+    const-string v1, "Constant List"
 
     iput-object v1, v0, Landroid/support/v7/app/AlertController$b;->f:Ljava/lang/CharSequence;
 
@@ -181,7 +181,7 @@
 
     iput-object p3, v0, Landroid/support/v7/app/AlertController$b;->h:Ljava/lang/CharSequence;
 
-    const-string p3, "\u786e\u5b9a"
+    const-string p3, "OK"
 
     .line 21
     iput-object p3, v0, Landroid/support/v7/app/AlertController$b;->i:Ljava/lang/CharSequence;

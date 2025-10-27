@@ -83,7 +83,7 @@
 
     aput-object p2, v0, v4
 
-    const-string p2, "\u6587\u4ef6%1$s|\u6587\u4ef6\u5939%2$s"
+    const-string p2, "File %1$s | Folder %2$s"
 
     invoke-static {p2, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -108,7 +108,7 @@
 
     aput-object v5, v0, v4
 
-    const-string v5, "%1$s|%2$s"
+    const-string v5, "%1$s | %2$s"
 
     .line 10
     invoke-static {v5, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

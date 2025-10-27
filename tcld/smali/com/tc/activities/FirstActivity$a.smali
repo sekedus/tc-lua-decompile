@@ -42,7 +42,7 @@
 
     const/4 v2, 0x5
 
-    const-string v3, "\u786e\u5b9a"
+    const-string v3, "OK"
 
     const/4 v4, 0x0
 
@@ -80,7 +80,7 @@
     .line 5
     iget-object v0, v0, Lcom/tc/activities/FirstActivity;->u:Lcn/pedant/SweetAlert/SweetAlertDialog;
 
-    const-string v1, "\u68c0\u67e5\u4e2d..."
+    const-string v1, "Checking..."
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setTitleText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
@@ -149,12 +149,12 @@
 
     iput-object v4, p1, Lc/d/b/h/a;->y:Ljava/lang/String;
 
-    const-string v0, "\u4e0d\u518d\u63d0\u9192"
+    const-string v0, "Don't remind again"
 
     .line 17
     iput-object v0, p1, Lc/d/b/h/a;->z:Ljava/lang/String;
 
-    const-string v0, "\u6211\u5df2\u4e86\u89e3"
+    const-string v0, "I understand"
 
     .line 18
     iput-object v0, p1, Lc/d/b/h/a;->A:Ljava/lang/String;
@@ -191,7 +191,7 @@
 
     invoke-direct {v1}, Lc/d/b/f/j;-><init>()V
 
-    const-string v2, "\u6709\u65b0\u7248\u672c:"
+    const-string v2, "New version available:"
 
     .line 22
     invoke-static {v2, p1}, Lc/a/a/a/a;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -214,18 +214,18 @@
     .line 24
     iput-object v2, p1, Lc/d/b/h/a;->w:Ljava/lang/String;
 
-    const-string v0, "\u5df2\u6709\u65b0\u7684\u7248\u672c\uff0c\u8bf7\u52a0\u7fa4\u66f4\u65b0"
+    const-string v0, "A new version is available, please join the group to update"
 
     iput-object v0, p1, Lc/d/b/h/a;->x:Ljava/lang/String;
 
     iput-object v4, p1, Lc/d/b/h/a;->y:Ljava/lang/String;
 
-    const-string v0, "\u4e0d\u518d\u63d0\u793a"
+    const-string v0, "Don't show again"
 
     .line 25
     iput-object v0, p1, Lc/d/b/h/a;->z:Ljava/lang/String;
 
-    const-string v0, "\u7acb\u5373\u52a0\u7fa4"
+    const-string v0, "Join the group now"
 
     .line 26
     iput-object v0, p1, Lc/d/b/h/a;->A:Ljava/lang/String;
@@ -361,19 +361,19 @@
     goto :goto_1
 
     :cond_6
-    const-string p1, "\u6210\u529f\uff1a"
+    const-string p1, "Success："
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    const-string p1, " \u5931\u8d25\uff1a"
+    const-string p1, " Failure："
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    const-string p1, " \u8df3\u8fc7\uff1a"
+    const-string p1, " Skipped："
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -385,7 +385,7 @@
 
     invoke-direct {p1, v2, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;-><init>(Landroid/content/Context;I)V
 
-    const-string v1, "\u6d4b\u8bd5\u5b8c\u6210"
+    const-string v1, "Test completed"
 
     invoke-virtual {p1, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setTitleText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
@@ -453,7 +453,7 @@
     goto/16 :goto_7
 
     :pswitch_6
-    const-string v0, "\u53cd\u7f16\u8bd1\u5931\u8d25"
+    const-string v0, "Decompilation failed"
 
     invoke-static {v5, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -485,7 +485,7 @@
     goto/16 :goto_6
 
     :pswitch_7
-    const-string p1, "\u52a0\u8f7d\u6846\u6d88\u5931"
+    const-string p1, "Loading box disappeared"
 
     invoke-static {v5, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -505,7 +505,7 @@
     goto/16 :goto_7
 
     :pswitch_8
-    const-string v0, "\u53cd\u7f16\u8bd1\u5b8c\u6210"
+    const-string v0, "Decompilation completed"
 
     .line 42
     invoke-static {v5, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -602,7 +602,7 @@
     .line 51
     iput-object v0, p1, Lcom/tc/activities/FirstActivity;->u:Lcn/pedant/SweetAlert/SweetAlertDialog;
 
-    const-string p1, "\u53cd\u7f16\u8bd1\u4e2d"
+    const-string p1, "Decompiling"
 
     .line 52
     invoke-static {v5, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I

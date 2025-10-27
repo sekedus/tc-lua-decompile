@@ -33,9 +33,9 @@
 
     move-result-object v0
 
-    const-string v1, "\u5f00"
+    const-string v1, "Open"
 
-    const-string v2, "\u5f00\u5173"
+    const-string v2, "Switch"
 
     invoke-static {v0, v2}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -50,19 +50,19 @@
     return-void
 
     :cond_0
-    const-string v1, "\u6807\u9898"
+    const-string v1, "Title"
 
     invoke-static {v0, v1}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    const-string v2, "\u5185\u5bb9"
+    const-string v2, "Content"
 
     invoke-static {v0, v2}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    const-string v3, "\u6807\u8bc6"
+    const-string v3, "Identifier"
 
     invoke-static {v0, v3}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -92,7 +92,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v5, "\u516c\u544a"
+    const-string v5, "Announcement"
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

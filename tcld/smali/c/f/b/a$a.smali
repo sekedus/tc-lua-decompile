@@ -153,7 +153,7 @@
 
     iget-object v2, v2, Lc/f/b/a;->b:Lcom/tc/activities/FirstActivity;
 
-    const-string v3, "\u811a\u672c\u8fc7\u5927\uff0c\u5185\u5b58\u6ea2\u51fa\uff01"
+    const-string v3, "Script too large, memory overflow\uff01"
 
     :goto_0
     invoke-static {v2, v1, v3}, Lcom/tc/activities/FirstActivity;->s(Lcom/tc/activities/FirstActivity;ILjava/lang/Object;)V
@@ -196,7 +196,7 @@
 
     iget-object v2, v2, Lc/f/b/a;->b:Lcom/tc/activities/FirstActivity;
 
-    const-string v3, "\u5efa\u8bae\u5f00\u542f\u5ffd\u7565\u6307\u4ee4"
+    const-string v3, "It is recommended to enable command ignoring"
 
     goto :goto_0
 

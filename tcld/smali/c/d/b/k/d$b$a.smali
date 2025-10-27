@@ -36,7 +36,7 @@
 
     const/4 v1, 0x0
 
-    const-string v2, "\u5df2\u4fdd\u5b58\u5230\u76f8\u518c\uff01"
+    const-string v2, "Saved to album\uff01"
 
     .line 2
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;

@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const-string v1, "\u6ca1\u6709\u4fdd\u5b58\u6743\u9650\uff0c\u4fdd\u5b58\u529f\u80fd\u65e0\u6cd5\u4f7f\u7528\uff01"
+    const-string v1, "No save permission, the save function cannot be used\uff01"
 
     const/4 v2, 0x0
 

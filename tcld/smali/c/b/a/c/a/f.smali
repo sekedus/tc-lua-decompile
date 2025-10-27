@@ -91,7 +91,7 @@
 
     if-nez v4, :cond_3
 
-    const-string v0, "\u4f3c\u4e4e\u51fa\u4e86\u70b9\u95ee\u9898..."
+    const-string v0, "It seems like there’s a problem..."
 
     .line 9
     invoke-static {p1, v0, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
@@ -110,7 +110,7 @@
     .line 10
     iget-object p1, v2, La/c/g/a/k$a;->a:Landroid/support/v7/app/AlertController$b;
 
-    const-string v4, "\u6307\u4ee4\u5217\u8868"
+    const-string v4, "Command list"
 
     iput-object v4, p1, Landroid/support/v7/app/AlertController$b;->f:Ljava/lang/CharSequence;
 
@@ -132,7 +132,7 @@
 
     iput-object p1, v0, Landroid/support/v7/app/AlertController$b;->h:Ljava/lang/CharSequence;
 
-    const-string p1, "\u786e\u5b9a"
+    const-string p1, "OK"
 
     .line 15
     iput-object p1, v0, Landroid/support/v7/app/AlertController$b;->i:Ljava/lang/CharSequence;

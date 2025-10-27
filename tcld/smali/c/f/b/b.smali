@@ -33,6 +33,12 @@
 
     move-result-object v0
 
+    const-string v1, "一言: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -65,7 +71,7 @@
 
     const-string v0, "ContentValues"
 
-    const-string v1, "\u9519\u8bef"
+    const-string v1, "Error"
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 

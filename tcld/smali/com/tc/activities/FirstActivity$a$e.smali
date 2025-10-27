@@ -48,7 +48,7 @@
     .line 1
     iget-object v0, v0, Lcom/tc/activities/FirstActivity;->n:Landroid/content/SharedPreferences$Editor;
 
-    const-string v1, "\u516c\u544a"
+    const-string v1, "Announcement"
 
     .line 2
     invoke-static {v1}, Lc/a/a/a/a;->f(Ljava/lang/String;)Ljava/lang/StringBuilder;

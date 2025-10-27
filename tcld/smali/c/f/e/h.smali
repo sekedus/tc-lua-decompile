@@ -1475,7 +1475,7 @@
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v3, "\n......\n......\n\u6307\u4ee4\u8fc7\u957f\uff0c\u5efa\u8bae\u6587\u4ef6\u67e5\u770b\n......\n......\n"
+    const-string v3, "\n......\n......\nCommand too long, recommended to view in file\n......\n......\n"
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@id/ignore" android:checked="false" android:title="忽略指令" android:checkable="true" app:showAsAction="never" />
-    <item android:id="@id/professional" android:checked="false" android:visible="false" android:title="专业模式" android:checkable="true" app:showAsAction="never" />
-    <item android:id="@id/dump" android:title="dump写出" app:showAsAction="never" />
-    <item android:id="@id/dump_2" android:title="拆卸" app:showAsAction="never" />
+    <item android:id="@id/ignore" android:checked="false" android:title="Ignore Instructions " android:checkable="true" app:showAsAction="never" />
+    <item android:id="@id/professional" android:checked="false" android:visible="false" android:title="Professional Mode" android:checkable="true" app:showAsAction="never" />
+    <item android:id="@id/dump" android:title="Dump Output" app:showAsAction="never" />
+    <item android:id="@id/dump_2" android:title="Disassemble" app:showAsAction="never" />
 </menu>

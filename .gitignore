@@ -1,0 +1,6 @@
+*.apk
+*.idsig
+*.jar
+*.keystore
+
+tcld/build/

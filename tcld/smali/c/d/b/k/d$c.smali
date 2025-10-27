@@ -36,7 +36,7 @@
 
     const/4 v1, 0x0
 
-    const-string v2, "\u6ca1\u6709\u4fdd\u5b58\u6743\u9650\uff0c\u4fdd\u5b58\u529f\u80fd\u65e0\u6cd5\u4f7f\u7528\uff01"
+    const-string v2, "No save permission, the save function is unavailable\uff01"
 
     .line 2
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;

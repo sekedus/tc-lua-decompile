@@ -37,7 +37,7 @@
 
     move-result-object v2
 
-    const-string v3, "\u7248\u672c\u53f7"
+    const-string v3, "Version number"
 
     invoke-static {v2, v3}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -47,13 +47,13 @@
 
     move-result v3
 
-    const-string v4, "\u7248\u672c\u540d"
+    const-string v4, "Version name"
 
     invoke-static {v2, v4}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    const-string v5, "\u7fa4\u94fe\u63a5"
+    const-string v5, "Group link"
 
     invoke-static {v2, v5}, La/c/c/j/b;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

@@ -2,13 +2,13 @@
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-        <item android:icon="@mipmap/ic_action_lua" android:id="@id/lua_help" android:title="Lua中文参考手册" />
+        <item android:icon="@mipmap/ic_action_lua" android:id="@id/lua_help" android:title="Lua Reference Manual" />
     </group>
     <item android:title="Communicate">
         <menu>
-            <item android:icon="@drawable/ic_vetor_setting" android:id="@id/setting" android:title="设置" />
-            <item android:icon="@drawable/ic_wh" android:id="@id/update" android:title="更新内容" />
-            <item android:icon="@drawable/ic_vector_about" android:id="@id/about" android:title="关于" />
+            <item android:icon="@drawable/ic_vetor_setting" android:id="@id/setting" android:title="Settings" />
+            <item android:icon="@drawable/ic_wh" android:id="@id/update" android:title="Changelog" />
+            <item android:icon="@drawable/ic_vector_about" android:id="@id/about" android:title="About" />
         </menu>
     </item>
 </menu>

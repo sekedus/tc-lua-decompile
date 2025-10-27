@@ -27,7 +27,7 @@
         <LinearLayout android:gravity="center" android:id="@id/buttons_container" android:paddingTop="10.0dip" android:paddingBottom="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <Button android:id="@id/cancel_button" android:background="@drawable/red_button_background" android:visibility="gone" android:layout_marginRight="25.0dip" style="@style/dialog_blue_button" />
             <Button android:id="@id/neutral_button" android:background="@drawable/gray_button_background" android:visibility="gone" android:layout_marginLeft="-10.0dip" android:layout_marginRight="10.0dip" style="@style/dialog_blue_button" />
-            <Button android:id="@id/confirm_button" android:visibility="gone" android:text="Ok" style="@style/dialog_blue_button" />
+            <Button android:id="@id/confirm_button" android:visibility="gone" android:text="OK" style="@style/dialog_blue_button" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

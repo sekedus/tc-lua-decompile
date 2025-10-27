@@ -189,13 +189,13 @@
 
     move-result-object p2
 
-    const-string p3, "\u7ee7\u7eed"
+    const-string p3, "Continue"
 
     invoke-virtual {p2, p3}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setConfirmText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
     move-result-object p2
 
-    const-string p3, "\u53d6\u6d88"
+    const-string p3, "Cancel"
 
     invoke-virtual {p2, p3}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setCancelText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
@@ -1076,13 +1076,13 @@
 
     move-result-object v0
 
-    const-string v1, "\u786e\u5b9a"
+    const-string v1, "OK"
 
     invoke-virtual {v0, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setConfirmText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
     move-result-object v0
 
-    const-string v1, "\u53d6\u6d88"
+    const-string v1, "Cancel"
 
     invoke-virtual {v0, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setCancelText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
@@ -1130,13 +1130,13 @@
 
     invoke-direct {v0, p0, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;-><init>(Landroid/content/Context;I)V
 
-    const-string v1, "\u63d0\u793a"
+    const-string v1, "Notification"
 
     invoke-virtual {v0, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setTitleText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
     move-result-object v0
 
-    const-string v1, "\u4f60\u6ca1\u6709\u9009\u62e9\u6587\u4ef6"
+    const-string v1, "You have not selected a file"
 
     invoke-virtual {v0, v1}, Lcn/pedant/SweetAlert/SweetAlertDialog;->setContentText(Ljava/lang/String;)Lcn/pedant/SweetAlert/SweetAlertDialog;
 
@@ -1167,7 +1167,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    const-string v0, "\u5bfc\u5165\u6210\u529f"
+    const-string v0, "Import successful"
 
     const/4 v1, 0x0
 
@@ -1191,7 +1191,7 @@
     goto :goto_0
 
     :catch_0
-    const-string p1, "\u6587\u4ef6\u4e0d\u5b58\u5728"
+    const-string p1, "File does not exist"
 
     invoke-static {p0, p1, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 

@@ -36,7 +36,7 @@
 
     const/4 v1, 0x0
 
-    const-string v2, "\u56fe\u7247\u4e0d\u5b58\u5728\uff01"
+    const-string v2, "Image does not exist\uff01"
 
     .line 2
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
